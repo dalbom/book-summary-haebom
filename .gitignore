@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Generated artifacts (should never appear in skill root, defensive)
+*.docx
+*.pdf
+/build.js
+node_modules/
+package.json
+package-lock.json
+
+# Local state — env detection cache + per-book progress records
+state/
